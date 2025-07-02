@@ -1,0 +1,47 @@
+- !<AssetImportMetadata/ab45d96c-cf7d-47d0-a519-0de68e7ac892>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 8bd4123c-33a1-48d2-9650-5486898a8949
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 8bd4123c-33a1-48d2-9650-5486898a8949
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> fe02c307-9ca5-4955-837f-f7a049063e0f
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/fe02c307-9ca5-4955-837f-f7a049063e0f>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: f7f6d225-163c-405a-abb6-9096b79d1b56
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    gpsAccuracyM: false
+    latitudeText: false
+    longitudeText: false
+    placesLimit: false
+    remoteServiceModule: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - remoteServiceModule: !<reference.RemoteServiceModule> 00000000-0000-0000-0000-000000000000
+      placesLimit: 1
+      gpsAccuracyM: !<float> 65.000000
+      latitudeText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      longitudeText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

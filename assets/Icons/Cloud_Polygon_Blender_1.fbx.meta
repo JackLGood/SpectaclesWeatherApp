@@ -1,0 +1,115 @@
+- !<AssetImportMetadata/f7889ae3-870f-4fee-862b-054a04e92676>
+  ImportedAssetIds:
+    .hidden/Cloud: !<reference> 30902820-6b10-495f-b9ef-516fdf3af110
+    .hidden/white: !<reference> 5a313187-2048-45e5-9e91-6a5b9ae069fd
+    66780cf3a4dcb2b8: !<reference> f3f0f411-33cc-4c58-8960-14319db3798b
+    Materials/Cloud: !<reference> ffb7f6ee-0545-4cfb-9f0f-585218b17fc4
+    Materials/Cloud|Cloud|GraphPassInfo: !<reference> 47105f97-646f-4b5f-b828-755051635f41
+    Meshes/Cloud Polygon Blender 1: !<reference> c2f0e9e8-10d9-4ab8-bde2-6139a8bd3844
+    Scene: !<reference> 4659bf0a-473b-414f-96ec-c064bc60152d
+    cce98d6209aa5bf2: !<reference> 81316071-49f7-40ab-8f56-94879c9cd96a
+    ecae13bb841a6bee: !<reference> 975ece21-74ae-4ff7-989c-33db80446633
+  ImporterName: FbxImporter
+  PrimaryAsset: !<reference> 4659bf0a-473b-414f-96ec-c064bc60152d
+  PackageType: LegacyPackage
+  PackagePolicy: CanBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> 3569a734-72b0-477f-bd29-8867bcdae388
+  DependentFiles:
+    []
+  ImporterSettings: !<FbxImporterSettings>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBased
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangentsAndBinormals: true
+    RegenerateTangentsAndBinormals: false
+    RegenerateNormalsForSkinnedMeshes: true
+    ImportBlendShapeAnimation: true
+    ImportVertexAnimation: true
+    GeneratePivots: true
+    TriangulateNURBS: true
+    UseLegacyFbxLoader: false
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<SingleCompressionSettings>
+        CompressorName: None
+        CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+      Performance Compression: !<SingleCompressionSettings>
+        CompressorName: Performance
+        CompressionSettings: !<TextureCompressionMipmapSettings>
+          Level: Medium
+          Mipmap: false
+    ExtensionMappings:
+      mesh: None Compression
+      jpg: Performance Compression
+    Overrides:
+      {}
+- !<ObjectPrefabAssetData/3569a734-72b0-477f-bd29-8867bcdae388>
+  SourceRemaps:
+    - 4659bf0a-473b-414f-96ec-c064bc60152d: 643ba66a-505d-4099-8899-41bf86129a56
+    - 81316071-49f7-40ab-8f56-94879c9cd96a: 648e7b45-0e1e-483e-b5dd-4d45728814c2
+    - 975ece21-74ae-4ff7-989c-33db80446633: 6ede61c0-7933-4443-bcc1-031dd3976d20
+    - f3f0f411-33cc-4c58-8960-14319db3798b: dd4fd9ae-295d-4ee8-857a-a4c2d8b49f67
+  SourceState: !<own> 643ba66a-505d-4099-8899-41bf86129a56
+- !<ObjectPrefab/643ba66a-505d-4099-8899-41bf86129a56>
+  PackagePath: ""
+  objects:
+    - !<own> dd4fd9ae-295d-4ee8-857a-a4c2d8b49f67
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/648e7b45-0e1e-483e-b5dd-4d45728814c2>
+  PrefabRemaps:
+    []
+  Name: Cloud Polygon Blender 1
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: -90.000000, y: -0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 6ede61c0-7933-4443-bcc1-031dd3976d20
+- !<RenderMeshVisual/6ede61c0-7933-4443-bcc1-031dd3976d20>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> ffb7f6ee-0545-4cfb-9f0f-585218b17fc4
+  Mesh: !<reference> c2f0e9e8-10d9-4ab8-bde2-6139a8bd3844
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/dd4fd9ae-295d-4ee8-857a-a4c2d8b49f67>
+  PrefabRemaps:
+    []
+  Name: Cloud_Polygon_Blender_1
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 648e7b45-0e1e-483e-b5dd-4d45728814c2
+  Components:
+    []

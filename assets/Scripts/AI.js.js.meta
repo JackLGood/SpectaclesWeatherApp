@@ -1,0 +1,41 @@
+- !<AssetImportMetadata/35da2e15-b390-4e74-851b-b8f7f8d14220>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 0ec2dedd-bc90-4063-b6aa-01feb0c7828e
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 0ec2dedd-bc90-4063-b6aa-01feb0c7828e
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 5bde504a-073f-4abe-8996-a9d8a36c7cc9
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/5bde504a-073f-4abe-8996-a9d8a36c7cc9>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 0636029d-8ba0-4d24-806f-b6bb084ac31d
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    outputDisplay: false
+    weatherResponse: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - weatherResponse: !<RequiredType.for> 00000000-0000-0000-0000-000000000000
+      outputDisplay: !<reference.Text> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

@@ -1,0 +1,39 @@
+- !<AssetImportMetadata/27db28dd-aff0-4c2f-ad97-ab5f0b596181>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 924ceba5-6e80-4bb3-8cda-36fc5e5dd71a
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 924ceba5-6e80-4bb3-8cda-36fc5e5dd71a
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    AssetLibraryId: 1ZSgKrpJDNK6Npyhergkvq
+  AssetDataMap:
+    JavaScriptAsset: !<own> 3d4b5b97-f6fd-410b-81f9-55706b11fcb2
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/3d4b5b97-f6fd-410b-81f9-55706b11fcb2>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 20e00eb5-e376-4dd6-ac45-69c320c56be3
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    question: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - question: "What are some ideas for Lenses?"
+  ScriptTypes:
+    -
+      {}

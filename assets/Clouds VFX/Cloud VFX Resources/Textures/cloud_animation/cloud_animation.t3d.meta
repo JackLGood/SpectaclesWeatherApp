@@ -1,0 +1,30 @@
+- !<AssetImportMetadata/11cdac50-7024-49fd-a2cc-848196056feb>
+  ImportedAssetIds:
+    AnimatedTexture: !<reference> 329aa385-a966-45ae-8bb9-6d65fbc33b30
+    atlas_0.pvr: !<reference> 192bef2d-2773-4b32-b651-cb5d4b3d0252
+  ImporterName: LensAnimationImporter
+  PrimaryAsset: !<reference> 329aa385-a966-45ae-8bb9-6d65fbc33b30
+  PackageType: LegacyPackage
+  PackagePolicy: CannotBeUnpackedTransparent
+  ExtraData:
+    AssetLibraryId: 3CHhPuTBUXM87gQbZnqVXH
+  AssetDataMap:
+    AnimatedTexture: !<own> fc1f1502-b88a-4b4e-9489-448ffaf9eeb6
+  DependentFiles:
+    - atlas_0.pvr
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: None
+    CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AnimatedTextureData/fc1f1502-b88a-4b4e-9489-448ffaf9eeb6>
+  AutoPlay: true
+  Reversed: false
+  PingPong: false
+  CurrentSequence: default
+  KeyFramesData:
+    default:
+      - time: 0.000000
+        value: 0
+      - time: 0.800000
+        value: 24

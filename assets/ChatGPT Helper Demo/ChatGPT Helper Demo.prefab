@@ -1,0 +1,68 @@
+- !<ObjectPrefab/d9f4bda9-23bb-488a-9b12-2d130cadecf5>
+  PackagePath: ""
+  objects:
+    - !<own> 8291bbfa-8923-4b2d-adef-f9bc1ba69c13
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/8291bbfa-8923-4b2d-adef-f9bc1ba69c13>
+  PrefabRemaps:
+    []
+  Name: ChatGPT Helper
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> be4f2a10-2b73-423a-8ad8-fd4e75a86604
+  Components:
+    - !<own> f176f66a-6ade-44bc-a401-e0e647428398
+- !<ScriptComponent/ad7e63a7-3f17-45d5-a371-f3eacd9870b0>
+  PrefabRemaps:
+    []
+  Name: ChatGPT Demo
+  Enabled: true
+  ScriptAsset: !<reference> 924ceba5-6e80-4bb3-8cda-36fc5e5dd71a
+  ScriptInputsDefault:
+    question: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      question: "What are some ideas for Lenses?"
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/be4f2a10-2b73-423a-8ad8-fd4e75a86604>
+  PrefabRemaps:
+    []
+  Name: "ChatGPT Demo [DELETE_ME]"
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ad7e63a7-3f17-45d5-a371-f3eacd9870b0
+- !<ScriptComponent/f176f66a-6ade-44bc-a401-e0e647428398>
+  PrefabRemaps:
+    []
+  Name: ChatGPT Helper
+  Enabled: true
+  ScriptAsset: !<reference> b97b310d-1ab1-475b-bfa1-cedd8a259f8c
+  ScriptInputsDefault:
+    remote: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      remote: !<reference.RemoteServiceModule> fc7ab1ee-a8dd-4210-a4a6-caa10e4a07b0
+  ScriptTypes:
+    "":
+      {}

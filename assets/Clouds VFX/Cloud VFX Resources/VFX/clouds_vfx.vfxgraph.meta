@@ -1,0 +1,54 @@
+- !<AssetImportMetadata/f2ad4781-e418-407b-a36b-cea8dfb59dec>
+  ImportedAssetIds:
+    VFXGraph: !<reference> 85898f4c-b906-4806-b0a4-cd1e0d2c0166
+  ImporterName: VFXAssetImporter
+  PrimaryAsset: !<reference> 85898f4c-b906-4806-b0a4-cd1e0d2c0166
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    AssetLibraryId: 3CHhPuTBUXM87gQbZnqVXH
+  AssetDataMap:
+    VFXGraph: !<own> 8411220a-ab6a-4663-bdd9-426fdd412d5b
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<VFXAssetData/8411220a-ab6a-4663-bdd9-426fdd412d5b>
+  Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+  SystemPassProperties:
+    39: !<VFXSystemPassProperties/45831f41-0d2c-4eed-bb24-b74ea4e83831>
+      FeedbackProperties:
+        {}
+      SimulateProperties:
+        boundingBoxMin:
+          typeIdx: 4
+          value: {x: -1000.000000, y: -100.000000, z: -500.000000}
+        boundingBoxMax:
+          typeIdx: 4
+          value: {x: 1000.000000, y: 100.000000, z: 500.000000}
+        offset:
+          typeIdx: 4
+          value: {x: 1.000000, y: 100.000000, z: -500.000000}
+      RenderProperties:
+        cloudAnimation:
+          typeIdx: 9
+          value:
+            id: 329aa385-a966-45ae-8bb9-6d65fbc33b30
+            sampler:
+              filteringMode: Trilinear
+              wrapModeU: Repeat
+              wrapModeV: Repeat
+              wrapModeW: ClampToEdge
+              borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+              mipmaps: false
+            type: Texture2D
+        fogColor:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      FeedbackDefines:
+        []
+      SimulateDefines:
+        []
+      RenderDefines:
+        []

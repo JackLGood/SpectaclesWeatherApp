@@ -1,0 +1,43 @@
+- !<AssetImportMetadata/8410f710-3090-41b9-a954-3123796ac6a2>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> f6153583-9c5f-477c-8b84-3d660daee39b
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> f6153583-9c5f-477c-8b84-3d660daee39b
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> f9726a1a-a1f4-4b95-ac5b-d6829f139ee4
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/f9726a1a-a1f4-4b95-ac5b-d6829f139ee4>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 06d6582b-68ff-4b14-a018-231c7dc95d4b
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    neighborhoodText: false
+    remoteServiceModule: false
+    temperatureText: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - remoteServiceModule: !<reference.RemoteServiceModule> 5a030b7e-aba6-4879-b59d-c9662b4ea07c
+      temperatureText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      neighborhoodText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
