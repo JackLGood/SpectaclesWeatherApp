@@ -1,5 +1,5 @@
 # Spectacles Weather Lens
-
+![Real-time Emotion Detection demo](spectacles.gif)
 
 A modern, location-aware AR weather application built for Snapchat Spectacles using Lens Studio.
 
