@@ -1,10 +1,10 @@
 # Spectacles Weather Lens
 ![Real-time Emotion Detection demo](spectacles.gif)
 
-A modern, location-aware AR weather application built for Snapchat Spectacles using Lens Studio. All VFX, models, and objects are dynamic depending on current weather of user.
+A modern, location-aware AR weather application built for Snapchat Spectacles using Lens Studio with AI integrations. All VFX, models, and objects are dynamic depending on current weather of user.
 
 ## Overview
-This project demonstrates a seamless AR weather experience on Spectacles, integrating geolocation, reverse-geocoding, and real-time weather data to display current conditions and an hourly forecast with dynamic icons and responsive UI.
+This project demonstrates a seamless AR weather experience on Spectacles, integrating geolocation, reverse-geocoding, ChatGPT, and real-time weather data to display current conditions and an hourly forecast with dynamic icons and responsive UI.
 
 ## Key Features
 - **Geolocation & Reverse-Geocoding**: Retrieves device latitude/longitude and converts to human-readable place names.
