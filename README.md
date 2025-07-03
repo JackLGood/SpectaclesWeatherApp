@@ -7,6 +7,7 @@ A modern, location-aware AR weather application built for Snapchat Spectacles us
 This project demonstrates a seamless AR weather experience on Spectacles, integrating geolocation, reverse-geocoding, ChatGPT, and real-time weather data to display current conditions and an hourly forecast with dynamic icons and responsive UI.
 
 ## Key Features
+- **AI Integration**: Generates comprehensive AI summary based on current weather when tapped/touched.
 - **Geolocation & Reverse-Geocoding**: Retrieves device latitude/longitude and converts to human-readable place names.
 - **Real-Time Weather Data**: Fetches spatiotemporal forecasts via OpenWeatherMap API.
 - **Dynamic Texture2D Rendering**: Maps weather conditions to icon textures for current and hourly views.
@@ -33,6 +34,7 @@ SpectaclesUIRoot
 - **API Keys**:
   - OpenWeatherMap API key
   - OpenCage (or alternative) reverse-geocoding API key
+  - Snap ChatGPT API package
 
 ## Setup & Installation
 1. **Clone this repository**:
